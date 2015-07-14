@@ -3,7 +3,9 @@ Heroku Free Dyno Worker Wake Up
 
 HerokuのFree Dynoでworkerを運用していたが、2015/07/01から起動後30分で'idle'状態になる。  
 そこでぶつ切れ状態だがHeroku APIでDynoの'state'を監視して'idle'になったらリスタートをかけるスクリプトを書いた。  
-これをcronで1分毎実行させる。
+これをcronで1分毎実行させる。  
+  
+追記）07/14 AM05:00(日本時間）くらいから寝ないようになった。
 
 ## スクリプト
 
